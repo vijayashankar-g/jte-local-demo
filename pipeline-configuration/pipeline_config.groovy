@@ -4,7 +4,7 @@
 
 
 stages{
-    continuous_integration{
+    continuous_integration(stageProps){
         build
         static_build
     }
