@@ -4,6 +4,7 @@ void call(stageProps){
         println stageProps.data
         println stageProps.stageName
         stageProps.stageName = "Graddle"
+        stageProps.data = "graddle"
         println appType
     }
 }
