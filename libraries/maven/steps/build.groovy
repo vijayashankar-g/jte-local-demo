@@ -4,6 +4,5 @@ void call(stageProps){
         println "$stageProps.data"
         println "$stageProps.stageName"
         stageProps.stageName = "Maven"
-
     }
 }
