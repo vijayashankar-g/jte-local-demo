@@ -5,10 +5,10 @@
 
 stages{
     continuous_integration{
-        build(stageProps)
-        static_build(stageProps)
+        build
+        static_build
     }
     ci_minimal{
-        build(stageProps)
+        build
     }
 }
