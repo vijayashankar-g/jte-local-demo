@@ -1,8 +1,5 @@
-libraries{
+@merge libraries{
     gradel
   	sonar
 }
 
-keywords{
-  appType = "java"
-}
