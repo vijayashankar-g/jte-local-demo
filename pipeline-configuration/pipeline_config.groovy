@@ -10,7 +10,7 @@ if(buildType == "full"){
     stages{
         continuous_integration{
             build(stageProps)
-            static(stageProps)
+            static_build(stageProps)
         }
     }
 }
