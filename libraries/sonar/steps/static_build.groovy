@@ -3,6 +3,6 @@ void call(stageProps){
         println "static code analysis"
         println stageProps.data
         println stageProps.stageName
-        stageProps.stageName = "Maven"
+        stageProps.stageName = "sonar"
     }
 }
