@@ -12,4 +12,3 @@ stages{
         build(stageProps)
     }
 }
-}
