@@ -1,2 +1,12 @@
+def stageProps = [
+	"data" : "init"
+]
+
+if(buildType == "full"){
+    continuous_integration(stageProps)
+}
+elseif(buildType == "buildOnly"){
+    continuous_integration(stageProps)
+}
 
 continuous_integration()
