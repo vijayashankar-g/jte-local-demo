@@ -1,0 +1,6 @@
+def stageProps = [
+	"data" : "init"
+]
+build(stageProps)
+static_build(stageProps)
+println stageProps.stageName
