@@ -1,5 +1,4 @@
 @merge libraries{
-    gradel
   	sonar
 }
 
