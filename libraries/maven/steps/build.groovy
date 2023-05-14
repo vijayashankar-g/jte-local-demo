@@ -1,3 +1,5 @@
 void call(){
-    echo "inside maven build"
+    stage("Maven: Build"){
+        println "build from the maven library"
+    }
 }
