@@ -82,7 +82,6 @@ ssh-credentials:295.vced876c18eb_4
 ssh-slaves:1.834.v622da_57f702c
 sshd:3.242.va_db_9da_b_26a_c3
 structs:324.va_f5d6774f3a_d
-templating-engine:2.5.2
 timestamper:1.18
 token-macro:308.v4f2b_ed62b_b_16
 trilead-api:1.71.v9e7860a_67a_df
@@ -100,3 +99,5 @@ workflow-scm-step:400.v6b_89a_1317c9a_
 workflow-step-api:639.v6eca_cd8c04a_a_
 workflow-support:838.va_3a_087b_4055b
 ws-cleanup:0.42
+templating-engine:2.5.2
+docker-workflow:563.vd5d2e5c4007f
