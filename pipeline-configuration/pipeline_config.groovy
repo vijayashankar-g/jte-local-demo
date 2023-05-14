@@ -3,12 +3,12 @@
 }
 
 
-stages{
-    continuous_integration(stageProps){
-        build
-        static_build
-    }
-    ci_minimal(stageProps){
-        build
-    }
-}
+// stages{
+//     continuous_integration(stageProps){
+//         build
+//         static_build
+//     }
+//     ci_minimal(stageProps){
+//         build
+//     }
+// }
