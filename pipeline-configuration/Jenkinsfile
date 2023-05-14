@@ -3,8 +3,8 @@ def stageProps = [
 ]
 
 if(buildType == "full"){
-    continuous_integration(stageProps)
+    continuous_integration()
 }
-elseif(buildType == "buildOnly"){
-    ci_minimal(stageProps)
+else if(buildType == "buildOnly"){
+    ci_minimal()
 }
