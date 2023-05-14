@@ -6,7 +6,5 @@ if(buildType == "full"){
     continuous_integration(stageProps)
 }
 elseif(buildType == "buildOnly"){
-    continuous_integration(stageProps)
+    ci_minimal(stageProps)
 }
-
-continuous_integration()
