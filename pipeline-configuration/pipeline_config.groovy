@@ -9,6 +9,6 @@ stages{
         static_build
     }
     ci_minimal{
-        build
+        build(stageProps)
     }
 }
