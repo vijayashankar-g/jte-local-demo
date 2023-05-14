@@ -4,15 +4,15 @@
 
 if(buildType == "full"){
     stages{
-        steps{
+        continuous_integration{
             build()
             static()
         }
     }
 }
 elseif(buildType == "buildOnly"){
-      stages{
-        steps{
+    stages{
+        continuous_integration{
             build()
         }
     }
