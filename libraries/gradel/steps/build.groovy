@@ -1,9 +1,9 @@
 void call(stageProps){
-    stage("Maven: Build"){
-        println "build from the maven library"
+    stage("Graddle: Build"){
+        println "build from the Graddle library"
         println stageProps.data
         println stageProps.stageName
-        stageProps.stageName = "Maven"
+        stageProps.stageName = "Graddle"
         println appType
     }
 }
