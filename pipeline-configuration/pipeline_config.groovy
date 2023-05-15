@@ -5,5 +5,6 @@ jte{
 
 
 @merge libraries{
+	merge = true
   	sonar
 }
